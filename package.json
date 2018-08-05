@@ -2,8 +2,9 @@
   "name": "puzjs",
   "version": "1.0.0",
   "description": "javascript crossword puzzle file library (.puz parser)",
-  "main": "index.js",
+  "main": "puz.js",
   "scripts": {
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/downforacross/puzjs/issues"
   },
-  "homepage": "https://github.com/downforacross/puzjs#readme"
+  "homepage": "https://github.com/downforacross/puzjs#readme",
+  "devDependencies": {
+    "gulp-umd": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
