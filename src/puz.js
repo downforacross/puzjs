@@ -435,7 +435,7 @@ function PUZtoJSON(buffer) {
 };
 
 // === EXPORT ===
-var puz = {
+var Puz = {
   // returns a Uint8Array containing the bytes in .puz format
   encode: function(puzzle) {
     return concat(format.map(function(fn) {
