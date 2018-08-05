@@ -1,0 +1,30 @@
+{
+  "name": "puzjs",
+  "version": "1.0.0",
+  "description": "javascript crossword puzzle file library (.puz parser)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/downforacross/puzjs.git"
+  },
+  "keywords": [
+    "javascript",
+    "acrosslite",
+    "across",
+    "lite",
+    "crossword",
+    "puzzle",
+    "file",
+    "format",
+    "parser"
+  ],
+  "author": "Steven Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/downforacross/puzjs/issues"
+  },
+  "homepage": "https://github.com/downforacross/puzjs#readme"
+}
