@@ -130,10 +130,10 @@ function Clues(puzzle) {
   var across = puzzle.clues.across;
   var down = puzzle.clues.down;
   for (var i = 0; i < across.length || i < down.length; i += 1) {
-    if (across[i]) {
+    if (across[i] !== undefined) {
       cluesList.push(across[i]);
     }
-    if (down[i]) {
+    if (down[i] !== undefined) {
       cluesList.push(down[i]);
     }
   }
