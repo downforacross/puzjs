@@ -1,6 +1,6 @@
 {
   "name": "puzjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "javascript crossword puzzle file library (.puz parser)",
   "main": "puz.js",
   "scripts": {
