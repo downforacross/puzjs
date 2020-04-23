@@ -6,9 +6,9 @@ gulp.task('default', function() {
   return gulp.src('src/puz.js')
     .pipe(umd())
     .pipe(babel({
-        presets: ['env']
-    }))
+        presets: [["env", {modules: false }]],
+        sourceType: "script",
+	}))
     .pipe(gulp.dest('.'));
-
 });
 
